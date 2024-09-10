@@ -1,0 +1,446 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.width{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 精品推荐模块 右侧添加修改兴趣  */
+.nav{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  
+}
+.log{
+  float: left;
+  padding:10px;
+}
+.log img{
+  width: 200px;
+  height: 60px;
+  
+}
+.naver{
+  float: left;
+  padding:10px;
+ 
+}
+.naver ul li{
+  padding: 15px;
+  float: left;
+  list-style-type: none;
+}
+.naver ul li a{
+  color: black;
+  font-size: 18px;
+ text-decoration: none;
+ margin: 10px;
+}
+.naver ul li a:hover{
+  color:#00a4ff;
+  text-decoration:#00a4ff underline;
+}
+.textinput{
+  float: left;
+  margin: 25px;
+}
+.textinput input{
+  border-radius: 15px;
+  border-right:none;
+  color:black;
+  padding-left: 15px;
+  height: 30px;
+  width: 300px;
+}
+::placeholder{
+  color: darkgray;
+}
+.textinput span{
+  float: right;
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+/* banner：左侧列表模块 右侧的课程表模块 底部轮播图 */
+.banner{
+  height: 420px;
+  background-color:#1c036c;
+}
+.onbox{
+  height: 420px;
+  background: url('images/banner2.png') no-repeat top center;
+}
+.subnav{
+  float: left;
+  margin-top: 6px;
+  width: 200px;
+  background-color:rgb(0,0,0,0.3);
+}
+.subnav ul li{
+  text-align: center;
+  list-style-type: none;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+}
+.subnav ul li a{
+  color:white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.subnav ul li  a span{
+  float: right;
+}
+.subnav ul li:hover{
+  background-color:#00a4ff;
+}
+.course{
+  float: right;
+  height: 300px;
+  width: 230px;
+  margin-top: 50px;
+  background-color:aliceblue;
+}
+.course h2{
+  height: 48px;
+  line-height: 48px;
+  background-color:#00a4ff;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+}
+.Coursetitle{
+  padding: 0 20px;
+}
+.Coursetitle ul li{
+  list-style-type: none;
+  margin-top: 20px;
+}
+.Coursetitle ul li p{
+  color: silver;
+}
+.Coursetitle a{
+  text-decoration: none;
+  border: 2px solid #00a4ff;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  line-height: 30px;
+  color: #00a4ff;
+}
+/* .Coursetitle ul li:hover{
+  background: darkgrey;
+} */
+.Coursetitle a:hover{
+  background-color:darkgrey;
+}
+/* 轮播图 */
+.app{
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+ }
+ .w{
+   text-decoration: none;
+   font-size: 30px;
+   width: 40px;
+   height: 50px;
+   padding-top: 45px;
+   color: white;
+   background-color: rgb(0, 0, 0,0.3);
+ }
+ .left{
+   position: absolute;
+   top: 241px;
+   left: 255px;
+   
+ }
+ .right{
+   position: absolute;
+   top: 241px;
+   right: 255px;
+ }
+
+/* 精品推荐模块 右侧添加修改兴趣  */
+.recommend{
+  margin-top: 15px;
+  box-shadow: 0px 4px 7px -1px ;
+  height: 65px;
+}
+.fine{
+  float: left;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+  width: 100px;
+  height: 65px;
+  color: #00a4ff;
+}
+.items{
+  float: left;
+}
+.items ul li{
+  float: left;
+  list-style-type: none;
+  margin-left: 55px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.items ul li a{
+  text-decoration: none;
+  color: black;
+}
+.items ul li a:hover{
+  color: #00a4ff;
+}
+.revise{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.revise a{
+  text-decoration: none;
+  color: #00a4ff;
+  font-size: 16px;
+}
+/* 展示课程视频模块 */
+.showcase{
+  height: 600px;
+  margin-top: 20px;
+}
+.suggest{
+  height: 50px;
+}
+.suggest .onleft{
+  display: block;
+  float: left;
+  line-height: 50px;
+  width: 100px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #00a4ff;
+}
+.suggest .onright{
+  display: block;
+  float: right;
+  line-height: 50px;
+  width: 100px;
+  padding-left: 40px;
+  font-size: 12px;
+  color: silver;
+}
+.introduce ul li{
+  position: relative;
+  list-style-type: none;
+  float: left;
+  width: 210px;
+  height: 267px;
+  /* padding-left: 18px; */
+  margin-left: 10px;
+  margin-top: 5px;
+  /* background-color: #00a4ff; */
+  transition: 0.1s;
+}
+.introduce ul li:hover{
+  width: 220px;
+  height: 267px;
+  z-index: 1;
+  box-shadow: 0px 1px 10px 0px #8d8d8d;
+}
+.introduce ul li a{
+  text-decoration: none;
+  color: black;
+}
+.introduce ul li img{
+  width: 100%;
+}
+.introduce ul li span{
+  margin-top: 20px;
+  margin-left:10px ;
+  display: block;
+  padding-right: 5px;
+  font-size: 16px;
+}
+.onintr span{
+  margin-top: 10px;
+  float: left;
+}
+.onintr span:nth-child(1){
+  color: orange;
+  font-size: 14px;
+}
+.onintr span:nth-child(2){
+  color:silver;
+  margin-left: 0;
+  font-size: 14px;
+}
+.onintr span:nth-child(3){
+  color:silver;
+  margin-left: 0;
+  font-size: 14px;
+}
+/* .introduce ul li a:hover{
+  text-decoration: none;
+  font-size: 48px;
+  color: #00a4ff;
+} */
+.suggest .online{
+  float: left;
+  margin-left: 100px;
+}
+.suggest .online ul li{
+  float: left;
+  list-style-type: none;
+  margin-left: 150px;
+  line-height: 50px;
+}
+.suggest .online ul li a{
+  text-decoration: none;
+  color:darkgray;
+  font-size: 16px;
+}
+/* .suggest .online ul li a:hover{
+  text-decoration:  3px underline #00a4ff;
+  font-size: 18px;
+  color: #00a4ff;
+} */
+/* 编程入门模块 */
+.entry{
+  height: 520px;
+}
+.boxentry{
+  margin-top: 20px;
+}
+.lefentry{
+  float: left;
+  width: 220px;
+  height: 450px;
+  background: url(images/phphoto.png) no-repeat center;
+}
+.rigentry{
+  float: left;
+  margin-left: 10px;
+  height: 450px;
+}
+.toptitle{
+  margin-bottom: 50px;
+}
+.toptitle img{
+  width: 100%;
+}
+/* 尾部版权模块 */
+.copyright{
+  margin-top: 20px;
+  height: 330px;
+  /* background-color: #1c036c; */
+}
+.leftcopy{
+  float: left;
+  width: 520px;
+  height: 330px;
+}
+.leftcopy img{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.leftcopy p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  color: black;
+}
+.leftcopy button{
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid #00a4ff;
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  color: #00a4ff;
+}
+.leftcopy button:hover{
+  background-color:lightsteelblue;
+}
+.rightcopy{
+  float: right;
+  width: 640px;
+  height: 330px;
+}
+.leabout{
+  float: left;
+  margin-left: 20px;
+  padding-top: 50px;
+  width: 180px;
+  height: 280px;
+  text-align: center;
+}
+.leabout dl dt{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+.leabout dl dd{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.leabout dl dd a{
+  color: black;
+  text-decoration: none;
+}
+.leabout dl dd a:hover{
+  color: #00a4ff;
+}
+.about{
+  float: left;
+  padding-top: 50px;
+  margin-left: 20px;
+  width: 180px;
+  height: 280px;
+  text-align: center;
+}
+.about dl dt{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+.about dl dd{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.about dl dd a{
+  color: black;
+  text-decoration: none;
+}
+.about dl dd a:hover{
+  color: #00a4ff;
+}
+.rigabout{
+  float: right;
+  padding-top: 50px;
+  width: 180px;
+  height: 280px;
+  text-align: center;
+  margin-right: 40px;
+}
+.rigabout dl dt{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+.rigabout dl dd{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.rigabout dl dd a{
+  color: black;
+  text-decoration: none;
+}
+.rigabout dl dd a:hover{
+  color: #00a4ff;
+}
